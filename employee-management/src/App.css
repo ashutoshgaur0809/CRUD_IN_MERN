@@ -13,6 +13,11 @@
   }
 }
 
+.btn-custom {
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

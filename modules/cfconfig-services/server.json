@@ -1,0 +1,6 @@
+{
+    "name":"cfconfig",
+    "web":{
+        "host":"cfconfig.local"
+    }
+}

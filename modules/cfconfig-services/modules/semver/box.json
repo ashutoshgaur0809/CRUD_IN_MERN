@@ -1,0 +1,32 @@
+{
+    "name":"Semantic Version",
+    "version":"1.2.8",
+    "author":"Brad Wood",
+    "homepage":"https://github.com/Ortus-Solutions/semanticVersion/",
+    "documentation":"https://github.com/Ortus-Solutions/semanticVersion/",
+    "repository":{
+        "type":"Git",
+        "URL":"git@github.com:Ortus-Solutions/semanticVersion.git"
+    },
+    "bugs":"https://github.com/Ortus-Solutions/semanticVersion/issues",
+    "slug":"semver",
+    "shortDescription":"This is a library that implements npm-style semantic versioning for CFML.",
+    "type":"modules",
+    "scripts":{
+        "onRelease":"publish",
+        "postPublish":"!git push --follow-tags"
+    },
+    "devDependencies":{
+        "testbox":"^5.1.0+2"
+    },
+    "installPaths":{
+        "testbox":"testbox/"
+    },
+    "ignore":[
+        "**/.*",
+        "/tests/",
+        "/server.json",
+        "**/*.md"
+    ],
+    "dependencies":{}
+}
